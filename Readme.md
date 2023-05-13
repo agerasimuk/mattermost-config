@@ -28,7 +28,7 @@ Phil Hagelberg originated this lovely idea.
     $ heroku create -s cedar
     ...
 
-    $ heroku config:add BUILDPACK_URL=http://github.com/kr/heroku-buildpack-inline.git
+    $ heroku config:add BUILDPACK_URL=https://github.com/agerasimuk/mattermost-config.git
     ...
 
     $ heroku addons:create heroku-postgresql:mini
