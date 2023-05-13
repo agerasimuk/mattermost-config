@@ -31,7 +31,7 @@ Phil Hagelberg originated this lovely idea.
     $ heroku config:add BUILDPACK_URL=http://github.com/kr/heroku-buildpack-inline.git
     ...
 
-    $ heroku config:add DATABASE_URL=postgres://fisejpivyepsol:e0fba47ff59ff173fe2408a05b39e642907e069cd70458750054330599eddd26@ec2-44-213-151-75.compute-1.amazonaws.com:5432/den749jmiol9fv
+    $ heroku addons:create heroku-postgresql:mini
     ...
 
     $ git push heroku master
